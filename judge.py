@@ -12,7 +12,7 @@ class Solution:
         #disini tc dengan index 2 akan di tambahkan menjadi 1 sehingga tc [0, -1, 1]. index 2 didapat dari x[1]
         #range dimulai dari 1 dikarenakan tc dimulai dari index 1
         for i in range (1,n+1):
-        #n-1 dikarenakan judge pasti adalah orang yang tidak percaya orang lain sehingga seharusnya judge adalah orang yang tidak punya koneksi
+        #n-1 dikarenakan jika ada judge, judge pasti adalah orang yang tidak percaya orang lain sehingga seharusnya judge adalah orang yang tidak punya koneksi
             if tc[i] == n-1:
                 return i
         #jika dari semua n mempunyai koneksi maka -1                
